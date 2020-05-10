@@ -27,7 +27,7 @@ func main() {
 	// número reais (float32, float64)
 	var x float32 = 49.99
 	fmt.Println("O tipo de x é", reflect.TypeOf(x))
-	fmt.Println("O tipo do literal de 49.99 é", reflect.TypeOf(49.99)) // float64 
+	fmt.Println("O tipo do literal de 49.99 é", reflect.TypeOf(49.99)) // float64
 
 	// boolean
 
@@ -53,5 +53,5 @@ func main() {
 	// char???
 	char := 'a'
 	fmt.Println("O tipo de char é", reflect.TypeOf(char)) // int32
-	fmt.Println(char) // 97
+	fmt.Println(char)                                     // 97
 }

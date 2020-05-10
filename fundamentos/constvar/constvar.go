@@ -7,7 +7,7 @@ import (
 
 func main() {
 	const PI float64 = 3.1415 // Por padrão um literal é float64
-	var raio = 3.2 // tipo (float64) inferido pelo compilador
+	var raio = 3.2            // tipo (float64) inferido pelo compilador
 
 	// forma reduzida de criar uma variável
 	area := PI * m.Pow(raio, 2) // Sempre que criar uma variável, é necessário usá-la
@@ -29,7 +29,7 @@ func main() {
 	// Declaração de várias variáveis em uma única linha
 	var e, f bool = true, false
 	fmt.Println(e, f)
- 
+
 	g, h, i := 2, false, "epa!"
 	fmt.Println(g, h, i)
 
